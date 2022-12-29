@@ -21,7 +21,7 @@ def test_2_sum_2():
 
     assert result == [0, 1]
 
-def test_2_sum_2():
+def test_2_sum_3():
     nums = [0,0]
     result = ts.twoSum(nums, 6)
 
