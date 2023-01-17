@@ -1,5 +1,9 @@
 def mySqrt(x):
-    for i in range(x):
+    if (x == 1 or x == 0):
+        return x
+
+    a = x//2
+    for i in range(a + 1):
         if (i * i == x):
             return i
         elif (i * i > x):
@@ -7,4 +11,4 @@ def mySqrt(x):
 
 
 
-print(mySqrt(275))
+print(mySqrt(4))

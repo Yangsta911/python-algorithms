@@ -25,3 +25,15 @@ def test_sqrtx_loop_large_integer():
     result = sl.mySqrt(number)
 
     assert result == 1785
+
+def test_sqrtx_loop_null():
+    number = 0
+    result = sl.mySqrt(number)
+
+    assert result == 0
+
+def test_sqrtx_loop_onel():
+    number = 1
+    result = sl.mySqrt(number)
+
+    assert result == 1
