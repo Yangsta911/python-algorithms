@@ -7,5 +7,3 @@ def climbStairs(n):
         return result
 
 
-
-climbStairs(10)
